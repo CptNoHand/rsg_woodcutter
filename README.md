@@ -18,6 +18,8 @@
 2. add it to your resources folder
 3. Add the following to your resources\[qbr]\qbr-core\shared\items.lua
 
+### items.lua
+
 	["axe"]		= {["name"] = "axe",	["label"] = "Axe",		["weight"] = 100,	["type"] = "item",	["image"] = "rsg_axe.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "equipment for chopping stuff"},
 	["wood"]	= {["name"] = "wood",	["label"] = "Wood",		["weight"] = 100,	["type"] = "item",	["image"] = "rsg_wood.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
 
@@ -26,5 +28,5 @@
 
 ensure rsg_woodcutter
 
-# Please consider donating:
+# consider donating:
 - https://www.buymeacoffee.com/rexshack
