@@ -4,8 +4,10 @@
 - github : https://github.com/RexShack
 - website : https://www.rexshack.com
 
-# Built using RedM Game Build 1436 and Framework QBCore RedM Edition
+# Framework QBCore RedM Edition
 - https://github.com/qbcore-redm-framework
+
+# Server Game Build
 - https://docs.fivem.net/docs/server-manual/server-commands/#sv_enforcegamebuild-build
 - add to your server.cfg : sv_enforceGameBuild 1436
 
@@ -24,7 +26,6 @@
 	["wood"]	= {["name"] = "wood",	["label"] = "Wood",		["weight"] = 100,	["type"] = "item",	["image"] = "rsg_wood.png",	['unique'] = false,	['useable'] = true,	['shouldClose'] = true,	['combinable'] = nil,	['level'] = 0,	["description"] = "crafting material"},
 
 4. Add the following to your "server.cfg"
-5. Add to server.cfg to start
 
 ensure rsg_woodcutter
 
