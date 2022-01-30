@@ -52,7 +52,7 @@ Citizen.CreateThread(function()
         local isInMarker, currentZone = false
 
         for k,v in ipairs(woodcutter) do
-            if (Vdist(coords.x, coords.y, coords.z, v.x, v.y, v.z) < 1.5) then
+            if #(coords - vector3(v.x, v.y, v.z)) < 1.5 then
                 isInMarker  = true
                 currentZone = 'woodcutter'
                 lastZone    = 'woodcutter'
